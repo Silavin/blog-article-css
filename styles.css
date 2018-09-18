@@ -1,4 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
-body{
-  font-family: 'Source Sans Pro', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400, 700);
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  border: 0.5em solid #bdc3c7;
+  margin: auto;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.date {
+  color: #3498db;
+}
+.quote {
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: #bdc3c7;
+  padding: 0 0 0 1em;
+}
+h2 {
+  color: #2c3e50;
+}
+
+@media screen and (max-width: 1023px) {
+  body {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 60%;
+  }
 }
